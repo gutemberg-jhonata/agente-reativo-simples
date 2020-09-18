@@ -1,0 +1,1 @@
+const ambiente = require('./ambiente');
