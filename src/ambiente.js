@@ -9,7 +9,7 @@ class Ambiente {
     /**
      * Popula a matriz ambiente com quadrantes inicialmente Sujos
      */
-    for(let i = 0; i < 2; i++) {
+    for (let i = 0; i < 2; i++) {
       this.ambiente[i] = ['S', 'S'];
     }
     
@@ -23,7 +23,13 @@ class Ambiente {
      * Utiliza as variáveis posX e posY para definir o quadrante 
      * inicial do agente
      */
-    this.ambiente[posY][posX] = '*A*';
+    this.ambiente[posY][posX] = 'A';
+  }
+
+  imprimirAmbiente() {
+    this.ambiente.map(ambiente => {
+      console.log('| ' + ambiente[0] + ' | ' + ambiente[1] + ' |');
+    });
   }
 }
 
