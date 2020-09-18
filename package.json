@@ -6,6 +6,6 @@
   "author": "Jhonata Gutemberg <gutemberg.jhonata@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/agente.js"
   }
 }
