@@ -28,9 +28,14 @@ class Ambiente {
   }
 
   imprimir() {
+    console.clear();
+
+    console.log();
+
     this.salas.map(ambiente => {
       console.log('| ' + ambiente[0] + ' | ' + ambiente[1] + ' |');
     });
+    
     console.log();
   }
 
