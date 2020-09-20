@@ -17,6 +17,8 @@ O projeto simula um aspirador de pó reativo que percebe o ambiente e aciona a l
 ## Instalação
 
 git clone https://github.com/gutemberg-jhonata/agente-reativo-simples.git
+cd agente-reativo-simples
+npm i ou yarn
 
 ## Uso
 
